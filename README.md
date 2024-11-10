@@ -1,6 +1,6 @@
 # AutOOP your first AutoML library
 
-🎉🥳 Congratulations on making it to this final project! We are excited to see what you can do.
+???? Congratulations on making it to this final project! We are excited to see what you can do.
 
 ## Introduction
 
@@ -12,10 +12,10 @@ The intention is to simulate a real-world scenario where you are given a set of 
 The problem space is where you will be working. However, we have already implemented some of the features for you.
 We highly encourage you to go beyond the requirements and implement additional features that you think would be useful for the user to showcase your skills. **The world is your oyster.**
 
-### 📝 General principles
+### ?? General principles
 
-> "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.”
-― Edsger Wybe Dijkstra"
+> "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better.�
+? Edsger Wybe Dijkstra"
 
 1. `Modifiability`: The code should be easy to modify and extend. You should be able to add new features without having to rewrite the entire codebase or heavy refactoring.
    *Important*: We prefer that you do not use libraries or frameworks for this reason. We want to see how you structure your code and how you solve problems. Furthermore, many of the tools available may not be customisable enough for our needs.
@@ -29,7 +29,7 @@ We highly encourage you to go beyond the requirements and implement additional f
 
 We encourage you to learn from the best practices and design patterns (e.g., https://refactoring.guru/design-patterns/python)
 
-### 👨‍💻User stories
+### ?????User stories
 In an industry setting, you will be given user stories or requirements that need to be translated to functional requirements by you. Luckily, you will not have to do this but we left it for inspiraton.
 
 1. OOP-001: As a datascientist, I want to be able to upload a CSV file so that I can begin my ML workflow.
@@ -47,7 +47,7 @@ In an industry setting, you will be given user stories or requirements that need
 More detailed instructions are provided in `INSTRUCTIONS.md` to guide you through these user stories.
 
 
-#### 🥷 I-am-not-done-yet suggestions
+#### ?? I-am-not-done-yet suggestions
 You can try implementing the one of the following, we will give a max of 2 points based on the complexity of your addition.
 * Generate experiment reports with graphs, metrics, and other relevant information.
 * Create model runs that can be reproduced and compared against other ones with different strategies.
@@ -64,7 +64,7 @@ You can try implementing the one of the following, we will give a max of 2 point
 * Create a prediction code generator for a specific model.
 * Auto hyperparameter search/tuning.
 
-### ⚒ Non-functional requirements
+### ? Non-functional requirements
 
 1. Create a streamlit app.
 2. You **must not use automl libraries** (e.g., auto-sklearn, auto-keras, etc.). But you are allowed to use libraries for the ML models (e.g., sklearn, tensorflow, torch, keras, etc.).
@@ -73,7 +73,7 @@ You can try implementing the one of the following, we will give a max of 2 point
 5. Different models should be trained in parallel to evaluate the best model.
 6. The code should infere wether a target column is valid for prediction given the capabilities of your algorithm.
 
-### 📝 Documentation & Workflow
+### ?? Documentation & Workflow
 * The code should be documented. You should be able to understand what the code does without having to spend a lot of time on it.
 * Significant design decisions should be documented as well. Each decision should be given an ID. Example:
 
@@ -90,7 +90,7 @@ You can try implementing the one of the following, we will give a max of 2 point
 You can place your decisions in a docs folder in the root of the project.
 E.g. docs/decisions/DSC-0001-use-typescript.md
 
-### 📈 Testing
+### ?? Testing
 * Showcase the capability of your streamlit app with at least 3 different usecases on real datasets (from Kaggle). 
 Some examples include housing prices, second-hand cars, etc.
 
@@ -153,30 +153,30 @@ If you did not implement the feature
 
 | Requirement                           | Type (FN/NF) | Implemented by       | Implementation Completed (add X if done) | Comment |
 |-------------------------------------- |--------------|----------------------|--------------------------|---------|         
-| Up-to-date requirements.txt           | NF           |                      |         | |
-| `ML/detect-features`                  | FN           |                      |         | |
-| `ML/artifact`                         | NF           |                      |         | |
-| `ML/feature`                          | NF           |                      |         | |
-| `ML/metric`                           | NF           |                      |         | |
-| `ML/metric/extensions`                | FN           |                      |         | |
-| `ML/model`                            | NF           |                      |         | |
-| `ML/model/extensions`                 | FN           |                      |         | |
-| `ML/pipeline/evaluation`              | FN           |                      |         | | 
-| `ST/page/datasets`                    | NF           |                      |         | |
-| `ST/datasets/management/create`       | FN           |                      |         | |
-| `ST/datasets/management/save`         | FN           |                      |         | |
-| `ST/page/modelling`                   | NF           |                      |         | |
-| `ST/modelling/datasets/list`          | FN           |                      |         | |
-| `ST/modelling/datasets/features`      | FN           |                      |         | |
-| `ST/modelling/models`                 | FN           |                      |         | |
-| `ST/modelling/pipeline/split`         | FN           |                      |         | |
-| `ST/modelling/pipeline/metrics`       | FN           |                      |         | |
-| `ST/modelling/pipeline/summary`       | FN           |                      |         | |
-| `ST/modelling/pipeline/train`         | FN           |                      |         | |
-| `ST/modelling/pipeline/save`          | FN           |                      |         | |
-| `ST/page/deployment`                  | FN           |                      |         | |
-| `ST/deployment/load`                  | FN           |                      |         | |
-| `ST/deployment/predict`               | FN           |                      |         | |
+| Up-to-date requirements.txt           | NF           | both                 |         |X|
+| `ML/detect-features`                  | FN           | both                 |         |X|
+| `ML/artifact`                         | NF           | both                 |         |X|
+| `ML/feature`                          | NF           | both                 |         |X|
+| `ML/metric`                           | NF           | both                 |         |X|
+| `ML/metric/extensions`                | FN           | both                 |         |X|
+| `ML/model`                            | NF           | both                 |         |X|
+| `ML/model/extensions`                 | FN           | both                 |         |X|
+| `ML/pipeline/evaluation`              | FN           | both                 |         |X| 
+| `ST/page/datasets`                    | NF           | both                 |         |X|
+| `ST/datasets/management/create`       | FN           | both                 |         |X|
+| `ST/datasets/management/save`         | FN           | both                 |         |X|
+| `ST/page/modelling`                   | NF           | both                 |         |X|
+| `ST/modelling/datasets/list`          | FN           | both                 |         |X|
+| `ST/modelling/datasets/features`      | FN           | both                 |         |X|
+| `ST/modelling/models`                 | FN           | both                 |         |X|
+| `ST/modelling/pipeline/split`         | FN           | both                 |         |X|
+| `ST/modelling/pipeline/metrics`       | FN           | both                 |         |X|
+| `ST/modelling/pipeline/summary`       | FN           | both                 |         |X|
+| `ST/modelling/pipeline/train`         | FN           | both                 |         |X|
+| `ST/modelling/pipeline/save`          | FN           | both                 |         |X|
+| `ST/page/deployment`                  | FN           | both                 |         |X|
+| `ST/deployment/load`                  | FN           | both                 |         |X|
+| `ST/deployment/predict`               | FN           | both                 |         |X|
 
 If you add extra features, please indicate them below:
 | Requirement                           | Type (FN/NF) | Implemented by       | Implementation Completed (add X if done) | Comment |
